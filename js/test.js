@@ -4,6 +4,7 @@ function process() {
 	document.getElementById('trigger_img').classList.add('changed');
 }
 
+
 document.getElementById('trigger_img').addEventListener('click', process);
 
 alert("test");
